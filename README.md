@@ -5,10 +5,10 @@
 </p>
 
 <h1 align="center">
-  Consumet API
+  Two-peice API
 </h1>
 <p align="center">
-  Consumet provides an APIs for accessing information and links for various entertainments like movies, books, anime, etc.
+  Two-peice provides an API for accessing information and links for various entertainments like movies, books, anime, etc.
 </p>
 <p align="center">
     <a href="https://github.com/consumet/api.consumet.org/actions/workflows/docker-build.yml">
@@ -25,7 +25,7 @@
   </a>
 </p>
 
-Consumet scrapes data from various websites and provides APIs for accessing the data to satisfy your needs.
+Two-peice scrapes data from various websites and provides API for accessing the data to satisfy your needs.
 
 <h2> Table of Contents </h2>
 
@@ -45,26 +45,26 @@ Consumet scrapes data from various websites and provides APIs for accessing the 
 
 ## Installation
 ### Locally
-installation is simple.
+Installation is simple.
 
 Run the following command to clone the repository, and install the dependencies.
 
 ```sh
-$ git clone https://github.com/consumet/api.consumet.org.git
-$ cd api.consumet.org
-$ npm install #or yarn install
+$ git clone https://github.com/Khushal-ag/two-peice-api.git
+$ cd two-peice-api
+$ pnpm i #or yarn #or npm i
 ```
 
-start the server!
+Start the server!
 
 ```sh
-$ npm start #or yarn start
+$ npm start #or yarn start #or pnpm start
 ```
 
 ### Docker
 Docker image is available at [Docker Hub](https://hub.docker.com/r/riimuru/consumet-api).
 
-run the following command to pull and run the docker image.
+Run the following command to pull and run the docker image.
 
 ```sh
 $ docker pull riimuru/consumet-api
