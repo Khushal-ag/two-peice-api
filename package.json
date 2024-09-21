@@ -40,7 +40,7 @@
         "ws": "^8.8.1"
     },
     "devDependencies": {
-        "nodemon": "2.0.20",
+        "nodemon": "3.1.7",
         "prettier": "^2.8.1"
     }
 }
